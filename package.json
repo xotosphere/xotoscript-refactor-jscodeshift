@@ -1,0 +1,12 @@
+{
+	"name": "xotoscript-refactor-jscodeshift",
+	"version": "0.0.1",
+	"scripts": {
+		"run:sample-trasformer":"npx jscodeshift -t ./src/sample-trasformer.ts --extensions=ts --parser=ts './mock/packages/foo-package/src/index.ts' --print"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^18.15.5",
+		"@types/jscodeshift": "^0.11.6"
+	}
+}
